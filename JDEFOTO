@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Portfolio de Fotos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .photo {
+            margin: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .photo img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tu Portfolio de Fotos</h1>
+    </header>
+
+    <section>
+        <!-- Reemplaza las siguientes líneas con las URLs de tus propias fotos -->
+        <div class="photo">
+            <img src="url_de_tu_primera_foto.jpg" alt="Descripción de la primera foto">
+        </div>
+        <div class="photo">
+            <img src="url_de_tu_segunda_foto.jpg" alt="Descripción de la segunda foto">
+        </div>
+        <!-- Agrega más bloques .photo según sea necesario -->
+    </section>
+
+</body>
+</html>
